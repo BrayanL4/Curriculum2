@@ -2,7 +2,7 @@
 let jsonUrl = 'https://raw.githubusercontent.com/BrayanL4/curriculumJSON/main/resume.json';
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("/serviceworker.js");
 }
 
 //funcion para cargar el json.
